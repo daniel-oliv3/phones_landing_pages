@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@700&family=Libre+Franklin:wght@100&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arimo', sans-serif;
+    /*font-family: 'Libre Franklin', sans-serif;*/
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+h1 {
+    font-size: 4rem;
+    color: black;
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+}
+
+
+.btn {
+    position: absolute;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 50%;
+    top: 60%;
+    transform: translateX(-50%);
+    text-decoration: none;
+}
